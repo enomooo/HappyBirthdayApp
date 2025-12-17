@@ -37,14 +37,14 @@ class MainActivity : ComponentActivity() {
             HappyBirthdayTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = Color(0xFFD2E8D4) // 薄い緑色の背景
+                    color = Color(0xFFFFE4E1) // 薄い緑色の背景
                 ) {
-                    val myData = ContactInfo(
+                    val birthdayUser = ContactInfo(
                         name = "Enomoto",
-                        email = "yourname@ewample.com",
-                        phone = "090-1234-5678"
+                        email = "Happy Birthday!",
+                        phone = "🎂✨🎉"
                     )
-                    BusinessCard(info = myData)
+                    BusinessCard(info = birthdayUser)
                 }
             }
         }
